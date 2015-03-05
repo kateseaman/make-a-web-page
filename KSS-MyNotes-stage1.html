@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Kate's Notes</title>
+			<link rel="stylesheet" type="text/css" href="MyNotesCSS.css">
+	</head>
+<body>
+		<H1>Intro To Programming Nano-Degree: Kate Seaman Notes</H1>
+
+
+			<div class="lesson">
+				LESSON 1: basics of the web and html
+					<div class="concept">
+						<div class="concept-title">
+							The Internet
+						</div>
+						<div class="concept-description">
+						<p>
+							The internet is a collection of weg pages which are special documents written in HTML <b>(hyper text mark up language)</b>.  Those documents have a file extension of .htm and are readable by the various browsers.  HTML documents are stored on servers, identified by a URL via http and read, interpreted and presented to the viewer by the browser on their computer.  Only HTML files can be read by a browser.  Coding must be written in the <b>proper syntax</b> for computers to understand them. Computers are stupid, they do exactly what they are told.
+						</p>
+						</div>
+					</div>
+
+
+					<div class="concept">
+						<div class="concept-title">
+							HTML Basics
+						</div>
+						<div class="concept-description">
+						<p>
+							HTML code uses <b>elements and tags</b> to define content and how it should be presented.  Open-tags and close-tags define an element and elements can be nested within elements. 
+						</p>
+						<p>
+							HTML elements can be either inline or block.  Block elements have an invisible box around the content inside them, and the element consumes the entire space in that block so nothign else can be there.  Inline elements consume just one line, but consume the entire line.  An attribute is the property of an HTML element.  Attributes provide reference to images, documents, URLs, etc.
+						</p>
+						</div>
+					</div>
+				</div>
+			<br>
+
+
+			<div class="lesson">
+				LESSON 2: Structured Documents, HTML and CSS referencing
+					<div class="concept">
+						<div class="concept-title">
+								HTML and CSS Basics
+						</div>
+						<div class="concept-description">
+						
+								HTML and CSS are both programming languages which change over time but the basic principles of how they work remain the same.  Therefore, you don't have to remember every single command, but rather knkw that you can look them up online at sources like: <a href="http://www.w3schools.com/tags/">HTML Reference</a>Think of a website like a house where:
+								<ol>
+									<LI>HTML = walls/frame</LI>	
+									<lI>CSS = style/decor</lI>
+									<LI>JAVA = interactive components (like a garage door)</LI>
+								</ol>	
+									
+							</div>
+					</div>
+
+					<div class="concept">
+						<div class="concept-title">
+								DOM Structure
+						</div>
+						<div class="concept-description">
+								<p>
+									HTML uses a "tree structure" to organize content/elements where elements can be nested inside elements.  Nested elements are noted in HTML code via indentation - more indentation denotes deeper nesting.  In Google chrome, choosing <b>tools/developer tools</b> opens a panel to show structure of the page as a browser interprets it, in a "tree" format. DOM = Document Object Model.  
+								</p>
+						</div>
+					</div>
+
+					<div class="concept">
+						<div class="concept-title">
+								A Note about "Elements"
+						</div>
+						<div class="concept-description">
+								<p>
+									An element can be text, a container or it can be blank.  Webpages are made up of rectangles - either solitary or nested, and can be defined by a <b>class name</b>.  The rectangles can be manipulated to appear to be any number of different shapes by using "layers" of styling to define background and foreground and make a rectangle appear circular for example.
+								</p>
+						</div>
+					</div>
+
+
+					<div class="concept">
+						<div class="concept-title">
+								Programming Text Editors
+						</div>
+						<div class="concept-description">
+								<p>
+									Text editing: <b>Codepen.io</b> is an online code editor good for small jobs and sharing code. <b>Sublime text</b> is downloadable, hard-drive-resident text editor and better for larger jobs.  Sublime can be set to "auto complete" or predict what you will be typing. Once you type the first character of an open tag, it offers a predictive drop-down and once you select the proper tag, it will complete the closing tag for you.
+								</p>
+						</div>
+					</div>
+			</div>
+			<br>
+
+
+
+			<div class="lesson">
+					LESSON 3:  More Detail on CSS
+						<div class="concept">
+							<div class="concept-title">
+									CSS Basics
+							</div>
+							<div class="concept-description">
+								<p>
+									Stands for <b>cascading style sheet</b> and introduces formatting.  CSS is a means to avoid unnecessary repetition in coding which saves everyone time and money, and improves website loading speed. You can have multiple CSS files referenced in HTML.  The idea of <em>"inheritance"</em> is a key feature of CSS and defines how properties are applied to elements and "descendents."
+								</p>
+							</div>
+						</div>
+
+						<div class="concept">
+							<div class="concept-title">
+									Inheritance and Descendents
+							</div>
+							<div class="concept-description">
+								<ul>
+									<LI>In general, <b>descendent elements</b> inherit text-related properties but <em>but not box-related</em> properties</LI>
+									<LI>Inheritance prevents repetition in code-writing, drives web pages to load faster and enables savings on bandwidth and development costs</LI>
+									<LI><b>Selectors</b> define what elements of the page a style will apply to.
+									<LI>The syntax is: .description {attribute;value} <em>where everything inside the curly brackets is a rule</em></LI>
+								</ul>
+							</div>
+						</div>
+
+						<div class="concept">
+							<div class="concept-title">
+									Ways to include CSS in a Web Page
+							</div>
+							<div class="concept-description">
+								<ol>
+									<LI>Put in the head element in between <b>style</b> tags. Good for only small jobs</LI>
+									<LI>link HTML file to a separate CSS file (good for larger projects</LI>
+								</ol>
+										<ul>
+											<LI>All HTML code is in one file .html</LI>
+											<LI>All CSS code is in a separate .css file</LI>
+											<LI>Add a <b>head</b> element to the HTML file and add a <b>link</b> tag inside the lead to link the two files together</LI>
+										</ul>
+										<p>
+											Writing the "style code" inline with the HTML (bad idea = repeats a lot of code!)
+										</p>
+							</div>
+						</div>
+						
+								
+						<div class="concept">
+							<div class="concept-title">
+									Code Comments
+							</div>
+							<div class="concept-description">
+								<p>
+									Code comments are ignored by computers.  Both HTML and CSS can include code comments so programmers can make notations to themselves or other programmers.  Code comments in HTML start with a an open tag and exclamation "!" symbol, CSS comments start with an backslash + asterisk "/*"
+								</p>
+							</div>
+						</div>
+
+						<div class="concept">
+							<div class="concept-title">
+									Div / Box Sizing and Positioning
+							</div>
+							<div class="concept-description">
+								<p>
+									Divs are block elements and take up the entire width of a page.  You can break up a div into two "columns"  to present content in two separate dives to appear side-by-side instead of one on top of the other.  To do this, add the rule "display: flex;" to the appropriate CSS to allow two divs to appear side by side
+								</p>
+							</div>
+						</div>
+
+
+						<div class="concept">
+							<div class="concept-title">
+									Code-Test-Refine: The Process of coding
+							</div>
+							<div class="concept-description">
+								
+								<p>
+									Start coding to match mock up:  add content, look for natural "boxes", add headings and tags. Test the code in the browser and then fix anything that needs to be fixed. Repeat the process until it's perfect.
+								</p>
+							</div>
+						</div>
+				</div>
+			</body>
+			</html>
+
+	
