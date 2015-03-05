@@ -1,0 +1,43 @@
+    
+h1 {
+    text-align: center;
+    color: #37620f;
+    font-size: 40px;
+}
+
+
+body {
+    font-family: verdana;
+    background-color: #92c149;
+}
+
+.lesson {
+    background-color: #37620f;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.concept {
+    background-color: #f0f1cd;
+    padding: 4px;
+    margin: 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+.concept-title {
+    font-size: 20px;
+    margin: 8px;
+    text-align: center;
+    color: #3a7842;
+}
+
+.concept-description {
+    font-weight: lighter;
+    margin: 6px;
+}
